@@ -6,4 +6,18 @@ List of experiments:
 
 ## [webpack-hot-middleware](./wepack-hot-middleware/)
 
-Minimal experiment with `hot-middleware` and `webpack-dev-middleware`.
+Minimal HMR example.
+
+Uses:
+- `webpack-hot-middleware`
+- `webpack-dev-middleware`
+- `custom server with express`
+
+## [hot-middleware-modules](./hot-middleware-modules/)
+
+Handles a "restart" of the app. Writes files to disk.
+
+Uses:
+- `webpack-hot-middleware`
+- `webpack-dev-middleware`
+- `custom server with express`
