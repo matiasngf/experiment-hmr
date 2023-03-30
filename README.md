@@ -43,7 +43,7 @@ Uses:
 
 ## [./react-refresh-hot-middleware](./react-refresh-hot-middleware/)
 
-React refresh using a custom server
+React refresh using a custom server.
 
 Uses:
 - `react-refresh`
@@ -51,3 +51,14 @@ Uses:
 - `webpack-hot-middleware`
 - `webpack-dev-middleware`
 - `custom server with express`
+
+## [./refresh-different-server](./refresh-different-server/)
+
+This experiment consists of two servers: One handles the build and hot-reload api. The other one serves the app and connects to the hot-reload server.
+
+Uses:
+- `react-refresh`
+- `@pmmmwh/react-refresh-webpack-plugin`
+- `webpack-hot-middleware`
+- `webpack-dev-middleware`
+- `express`
