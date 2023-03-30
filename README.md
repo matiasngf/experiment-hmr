@@ -40,3 +40,14 @@ Uses:
 - `react-refresh`
 - `webpack-dev-server`
 - `@pmmmwh/react-refresh-webpack-plugin`
+
+## [./react-refresh-hot-middleware](./react-refresh-hot-middleware/)
+
+React refresh using a custom server
+
+Uses:
+- `react-refresh`
+- `@pmmmwh/react-refresh-webpack-plugin`
+- `webpack-hot-middleware`
+- `webpack-dev-middleware`
+- `custom server with express`
