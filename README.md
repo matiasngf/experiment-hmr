@@ -31,3 +31,12 @@ Uses:
 - `webpack-hot-middleware`
 - `webpack-dev-middleware`
 - `custom server with express`
+
+## [./react-refresh-dev-server](./react-refresh-dev-server/)
+
+React refresh with webpack serve.
+
+Uses:
+- `react-refresh`
+- `webpack-dev-server`
+- `@pmmmwh/react-refresh-webpack-plugin`
